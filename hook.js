@@ -5,7 +5,7 @@
  * Use with: frida-inject -n <emulator.exe> -s hook.js  > capture.txt 2>&1
  */
 
-var MODNAME = 'libComms.dll';   // if not found, the script prints candidates below
+var MODNAME = 'libEmulateComms5580.dll';   // if not found, the script prints candidates below
 
 // RVAs = Ghidra address - 0xDA000000
 var OFF = {
